@@ -1,0 +1,46 @@
+.Post{
+    background-color:#BDBDBD; 
+    width: 600px;
+    margin:auto;    
+}
+
+div.Post .Container{
+    background-color: gray;
+    
+}
+.Header{
+    background-color:#BDBDBD;
+}
+
+div.Header h1{
+    padding:10px;
+}
+/*El margin:auto, me centra todo el contenido.El padding me separa el contenido del borde(simula sangria)*/ 
+div.Footer span, div.Footer p {
+    padding:10px;
+}
+/*Puedo separar por coma dos selectores que pertenezcan al mismo div para aplicarles las mismas propiedades.*/ 
+div {
+    box-sizing:border-box;
+}
+
+div.Post .Header div:first-child{
+    display:inline-block;
+    width: 80%;
+}
+
+div.Post .Header div:last-child{
+    display:inline-block;
+    width: 20%;
+    text-align: right;
+    padding: 10px;
+    color:gray;
+}
+div.container {
+    margin:auto;
+    padding:10px;
+    /*El padding me separa los cards, uno del otro*/
+}
+div.row img{
+ padding:0;
+}
